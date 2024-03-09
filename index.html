@@ -28,7 +28,8 @@
     <meta name="robots" content="index, follow">
     <!-- Favicon -->
     <link href="img/laposta.png" rel="icon">
-
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,9 +42,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <!-- <link href="lib/animate/animate.min.css" rel="stylesheet"> -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -164,11 +164,12 @@
 
     <h2 class="text-center" id="sobre">Sobre Nosotros</h2>
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" data-aos="fade-up"
+    data-aos-duration="2000">
         <div class="container">
             <div class="row g-5 align-items-end">
 
-                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-lg-12">
 
                     <h1 class="mb-4">Conocenos</h1>
                     <p class="mb-4">Apasionados por la salud y felicidad de sus mascotas, nuestro equipo, compuesto por
@@ -197,10 +198,11 @@
 
     <!-- Features Start -->
     <div class="container-xxl py-5">
-        <div class="container">
+        <div class="container " data-aos="fade-down"
+        data-aos-duration="2000">
             <div class="row align-items-center">
                 <h3 class="mb-4 text-center">Nuestro Trabajo</h3>
-                <div class="col-lg-6 wow fadeInUp gap-2" data-wow-delay="0.1s">
+                <div class="col-lg-6  gap-2">
                     <p class="mb-4">Nos dedicamos con pasión y experiencia a mejorar la vida de sus mascotas. Nuestro
                         compromiso se refleja en cada servicio que ofrecemos, desde cuidados básicos hasta soluciones
                         especializadas. Trabajamos incansablemente para asegurar la salud y felicidad de los miembros
@@ -222,10 +224,11 @@
 
 
     <!-- Banner Start -->
-    <div class="container-fluid banner my-5 py-5" data-parallax="scroll" data-image-src="img/banner1.jpg">
+    <div class="container-fluid banner my-5 py-5">
+    
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                <div class="col-lg-6">
                     <div class="row g-4 align-items-center">
                         <div class="col-sm-4">
                             <img class="img-fluid rounded" src="img/banner1.1.jpg" alt="">
@@ -239,14 +242,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-lg-6">
                     <div class="row g-4 align-items-center">
                         <div class="col-sm-4">
                             <img class="img-fluid rounded" src="img/banner2.jpg" alt="">
                         </div>
                         <div class="col-sm-8">
-                            <h2 class="text-white mb-3">We Deliver Fresh Mild Worldwide</h2>
-                            <p class="text-white mb-4">Clita erat ipsum et lorem et sit, sed stet lorem sit clita
+                            <h2 class="mb-3">We Deliver Fresh Mild Worldwide</h2>
+                            <p class="mb-4">Clita erat ipsum et lorem et sit, sed stet lorem sit clita
                                 duo
                                 justo magna dolore erat amet</p>
 
@@ -257,13 +260,14 @@
         </div>
     </div>
     <!-- Banner End -->
-    <div class="container wow fadeInUp gap-3 mb-4" data-wow-delay="0.4s" id="servicios">
+    <div class="container gap-3 mb-4"  id="servicios"  >
         <div class="row justify-content-center mb-1 ">
-            <div class="card-group">
-                <div class="card pt-2 bg-secondary">
+            <div class="card-group" data-aos="fade-down"
+            data-aos-duration="3000">
+                <div class="card pt-2 bg-secondary" >
                     <img src="img/icon svg/veterinaria.png"
                         class="card-img-top img-thumbnail bg-white mx-auto rounded-2" alt="..." style="width: 4rem">
-                    <div class="card-body">
+                    <div class="card-body" >
                         <h5 class="card-title text-center text-uppercase">Servicios Clínicos</h5>
                         <p class="card-text text-white text-center">Nuestra clínica cuenta con un equipo de
                             profesionales
@@ -299,7 +303,8 @@
             </div>
         </div>
         <div class="row justify-content-center mb-1 ">
-            <div class="card-group">
+            <div class="card-group" data-aos="fade-down"
+            data-aos-duration="2000">
                 <div class="card pt-2 bg-secondary">
                     <img src="img/icon svg/ecografia.png" class="card-img-top img-thumbnail bg-white mx-auto rounded-2"
                         alt="..." style="width: 4rem">
@@ -336,7 +341,8 @@
             </div>
         </div>
         <div class="row justify-content-center ">
-            <div class="card-group">
+            <div class="card-group" data-aos="fade-down"
+            data-aos-duration="1500">
                 <div class="card pt-2 bg-secondary">
                     <img src="img/icon svg/prescripcion.png"
                         class="card-img-top img-thumbnail bg-white mx-auto rounded-2" alt="..." style="width: 4rem">
@@ -375,10 +381,11 @@
     </div>
     <hr class="w-75 mx-auto">
     <!--Mapa-->
-    <div class="container mb-4 d-flex justify-content-center align-items-center wow fadeIn" data-wow-delay="0.1s"
-        id="ubicacion">
+    <div class="container mb-4 d-flex justify-content-center align-items-center"
+        id="ubicacion"  data-aos="fade-left"
+      data-aos-duration="1500">
         <a href="https://www.google.com/maps/place/Clin%C3%ADca+Veterinaria+La+Posta/@-34.979229,-67.687149,15z"
-            class="" target="_blank">
+          target="_blank">
             <img src="img/mapa.png" alt="" class="img-fluid border border-2 border-warning">
         </a>
 
@@ -386,8 +393,9 @@
     <!--End Mapa-->
 
     <!-- Footer Start -->
-    <footer class="container-fluid bg-secondary footer pt-4 wow fadeIn" data-wow-delay="0.2s">
-        <div class="container pb-4">
+    <footer class="container-fluid bg-secondary footer pt-4">
+        <div class="container pb-4" data-aos="fade-right"
+        data-aos-duration="2000">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-12">
                     <h5 class="text-white mb-4">Nuestros Horarios</h5>
@@ -443,13 +451,8 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/parallax/parallax.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+      <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
 
     <!-- Template Javascript -->
     <script>
@@ -477,11 +480,13 @@
             });
         });
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
-
+    <script>
+        AOS.init({once: true});
+        
+      </script>
 </body>
 
 </html>
